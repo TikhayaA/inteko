@@ -1,0 +1,123 @@
+@font-face{
+	font-family:"MyriadProRegular.ttf";
+	src:url("fonts/MyriadProRegular.ttf");
+}
+main{
+	width: 1170px;
+	background: #ccc;
+	margin: auto;
+}
+.breadcrumb{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.breadcrumb li{
+	color: #000000;
+	font-size: 16px;
+}
+.breadcrumb a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 16px;
+}
+h1{
+	font-size: 48px;
+	font-family:"MyriadProRegular.ttf";
+}
+h1:after{
+	content: "";
+	display: block;
+	height: 5px;
+	width: 140px;
+	background: #000;
+	margin-top: 15px;
+}
+.kalkulator-wrap li{
+	font-size: 27px;
+	font-family:"MyriadProRegular.ttf";
+	margin-top: 95px;
+}
+.kalkulator-wrap li:before{
+	content: "";
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background: #ac1e23;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+.kalkulator-wrap li p{
+	font-size: 16px;
+	margin-left: 30px;
+}
+.wrapformhouse{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: center;
+	
+}
+.formhouse{
+	width: 28%;
+	height: 360px;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding: 0 30px;
+}
+.checkbox{
+	display: none;
+}
+.checkbox-custom{
+	position: relative;
+	width: 33px;
+	height: 33px;
+	border-radius: 22px;
+	border: 3px solid #ac1e23;
+	background: #fff;
+	margin: auto;
+}
+.checkbox-custom,
+.checkboxlabel {
+	display: block;
+	vertical-align: middle;
+}
+.checkbox:checked + .checkbox-custom::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 3px;
+	bottom:3px;
+	left: 3px;
+	background: #ac1e23;  
+	border-radius: 20px;
+}
+.checkboxlabel-inline,
+.checkbox-costume-inline{
+	display: inline-block;
+	vertical-align: middle;
+}
+.checkboxlabel-inline{
+	min-width: 96px;
+	text-align: center;
+}
+.checkboxlabel-inline img{
+	margin: 0 10px;
+}
+.checkbox-costume-inline{
+	width: 26px;
+	height: 26px;
+}
+.formblock{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+.formblock-item{
+	padding-bottom: 50px;
+}
