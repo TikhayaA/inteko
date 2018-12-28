@@ -6,6 +6,7 @@ main{
 	width: 1170px;
 	background: #ccc;
 	margin: auto;
+	padding: 0 80px;
 }
 .breadcrumb{
 	display: flex;
@@ -33,12 +34,13 @@ h1:after{
 	background: #000;
 	margin-top: 15px;
 }
-.kalkulator-wrap li{
+.kalkulator-title h2{
 	font-size: 27px;
 	font-family:"MyriadProRegular.ttf";
 	margin-top: 95px;
+
 }
-.kalkulator-wrap li:before{
+.kalkulator-title h2:before{
 	content: "";
 	display: inline-block;
 	height: 10px;
@@ -48,9 +50,12 @@ h1:after{
 	vertical-align: middle;
 	margin-right: 20px;
 }
-.kalkulator-wrap li p{
+.kalkulator-title p{
 	font-size: 16px;
 	margin-left: 30px;
+}
+.kalkulator-title{
+	margin-bottom: 45px;
 }
 .wrapformhouse{
 	display: flex;
@@ -61,12 +66,11 @@ h1:after{
 	
 }
 .formhouse{
-	width: 28%;
+	width: 293px;
 	height: 360px;
 	display: flex;
 	justify-content: space-around;
 	align-items: flex-end;
-	padding: 0 30px;
 }
 .checkbox{
 	display: none;
@@ -120,4 +124,94 @@ h1:after{
 }
 .formblock-item{
 	padding-bottom: 50px;
+}
+.square{
+	font-size: 16px;
+	padding: 0 30px;
+}
+.square input{
+	border:3px solid #ac1e23;
+	width: 115px;
+	height:45px;
+	text-align: center;
+	margin-left: 30px;
+	margin-right: 10px;
+	margin-top: 70px;
+}
+.homefurnishing-wrap{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.homefurnishing{
+	width: 280px;
+
+}
+.kalkulator-title-block{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin-bottom: 45px;
+}
+.kalkulator-title-block h3{
+	font-size:18px;
+	font-family:"MyriadProRegular.ttf";
+	
+}
+.kalkulator-title-block h3:before{
+	content: "";
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	border-radius: 5px;
+	background: #ac1e23;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.kalkulator-title-block h3:after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 80px;
+	background: #ac1e23;
+	margin-top: 15px;
+}
+table{
+	text-align: left;
+}
+.homefurnishing-checkbox{
+
+}
+.homefurnishing-btn{
+	width:270px;
+	height:40px;
+	border-radius: 20px;
+	background: #ac1e23;
+	text-align: center;
+	margin: 30px 0;
+}
+.homefurnishing-btn a{
+	color:#fff;
+	text-decoration: none;
+	line-height: 40px;
+}
+.checkboxlabel-block{
+	min-width: 96px;
+	text-align: center;
+}
+.checkbox-costume-block{
+	width: 26px;
+	height: 26px;
+}
+.services{
+	border:3px solid #ac1e23;
+	width: 500px;
+	height:50px;
+	text-align: left;
+	line-height: 50px;
+}
+.service-title{
+	padding-left: 50px;
+	font-size: 18px;
 }

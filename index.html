@@ -11,71 +11,191 @@
 		<div class="main-wrap">
 			<ul class="breadcrumb">
 				<li><a href="#">Главная</a></li>
-				<li class="active">| Калькулятор </li>
+				<li class="active"> | Калькулятор </li>
 			</ul>
 		</div>
 		<h1>Калькулятор</h1>
-		<ul class="kalkulator-wrap">
-			<li>Выберите предпочитаемую форму дома
-				<p>*Красным выделено утепление дома</p>
-			</li>
-			<div class="wrapformhouse">
-				<div class="formhouse">
-					<label>
-						<span class="checkboxlabel" for="checkbox1"><img src="image/Слой-16.png"></span>
-						<input  class="checkbox" type="radio" name="image" id="checkbox1">
-						<span class="checkbox-custom"></span>
-					</label>
-				</div>
-				<div class="formhouse">
-					<label>
-						<span class="checkboxlabel" for="checkbox2"><img src="image/Слой-19.png"></span>
-						<input  class="checkbox" type="radio" name="image" id="checkbox2">
-						<span class="checkbox-custom"></span>
-					</label>
-				</div>
-				<div class="formhouse">
-					<label>
-						<span class="checkboxlabel" for="checkbox3"><img src="image/Слой-18.png"></span>
-						<input  class="checkbox" type="radio" name="image" id="checkbox3">
-						<span class="checkbox-custom" ></span>
-					</label>
-				</div>
-				<div class="formhouse">
-					<label>
-						<span class="checkboxlabel" for="checkbox4"><img src="image/Слой-17.png"></span>
-						<input  class="checkbox" type="radio" name="image" id="checkbox4">
-						<span class="checkbox-custom" ></span>
-					</label>
-				</div>
-				<div class="formhouse">
-					<label>
-						<span class="checkboxlabel" for="checkbox5"><img src="image/Слой-20.png"></span>
-						<input  class="checkbox" type="radio" name="image" id="checkbox5">
-						<span class="checkbox-custom"></span>
-					</label>
-				</div>
-				<div class="formhouse formblock">
-					<div class="formblock-item">
-						<label>
-							<input  class="checkbox" type="radio" name="image" id="checkbox6">
-							<span class="checkbox-custom checkbox-costume-inline" id="checkbox6"></span>
-							<span class="checkboxlabel-inline"><img src="image/Construction_-_Outline_-_062_-_Bay_window-512.png"></span>
-						</label>
-						<span>Добавить эркер?<sup><img src="image/копия.png"></sup></span>
-					</div>
-					<div class="formblock-item">
-						<label>
-							<input  class="checkbox" type="radio" name="image" id="checkbox7">
-							<span class="checkbox-custom checkbox-costume-inline" id="checkbox7"></span>
-							<span class="checkboxlabel-inline"><img src="image/Слой-22.png"></span>
-						</label>
-						<span>Сложная крыша?<sup><img src="image/копия.png"></sup></span>
-					</div>
-				</div>
-						
+		<div class="kalkulator-title">
+			<h2>Выберите предпочитаемую форму дома</h2>
+			<p>*Красным выделено утепление дома</p>
+		</div>
+		<div class="wrapformhouse">
+			<div class="formhouse">
+				<label>
+					<span class="checkboxlabel" for="checkbox1"><img src="image/Слой-16.png"></span>
+					<input  class="checkbox" type="radio" name="image" id="checkbox1">
+					<span class="checkbox-custom"></span>
+				</label>
 			</div>
-		</ul>
+			<div class="formhouse">
+				<label>
+					<span class="checkboxlabel" for="checkbox2"><img src="image/Слой-19.png"></span>
+					<input  class="checkbox" type="radio" name="image" id="checkbox2">
+					<span class="checkbox-custom"></span>
+				</label>
+			</div>
+			<div class="formhouse">
+				<label>
+					<span class="checkboxlabel" for="checkbox3"><img src="image/Слой-18.png"></span>
+					<input  class="checkbox" type="radio" name="image" id="checkbox3">
+					<span class="checkbox-custom" ></span>
+				</label>
+			</div>
+			<div class="formhouse">
+				<label>
+					<span class="checkboxlabel" for="checkbox4"><img src="image/Слой-17.png"></span>
+					<input  class="checkbox" type="radio" name="image" id="checkbox4">
+					<span class="checkbox-custom" ></span>
+				</label>
+			</div>
+			<div class="formhouse">
+				<label>
+					<span class="checkboxlabel" for="checkbox5"><img src="image/Слой-20.png"></span>
+					<input  class="checkbox" type="radio" name="image" id="checkbox5">
+					<span class="checkbox-custom"></span>
+				</label>
+			</div>
+			<div class="formhouse formblock">
+				<div class="formblock-item">
+					<label>
+						<input  class="checkbox" type="checkbox" name="image" id="checkbox6">
+						<span class="checkbox-custom checkbox-costume-inline" for="checkbox6"></span>
+						<span class="checkboxlabel-inline"><img src="image/Construction_-_Outline_-_062_-_Bay_window-512.png"></span>
+					</label>
+					<span>Добавить эркер?<sup><img src="image/копия.png"></sup></span>
+				</div>
+				<div class="formblock-item">
+					<label>
+						<input  class="checkbox" type="checkbox" name="image" id="checkbox7">
+						<span class="checkbox-custom checkbox-costume-inline" for="checkbox7"></span>
+						<span class="checkboxlabel-inline"><img src="image/Слой-22.png"></span>
+					</label>
+					<span>Сложная крыша?<sup><img src="image/копия.png"></sup></span>
+				</div>
+			</div>						
+		</div>
+		<div class="kalkulator-title">
+			<h2>Выберите желаемую площадь дома</h2>
+		</div>
+		<label class="square">Введите желаемую площадь: 
+			<input type="text" name="square" min="85" placeholder="85">м<sup>2</sup>
+		</label>
+		<div class="kalkulator-title">
+			<h2>Стандартная комплектация дома</h2>
+		</div>
+		<div class="homefurnishing-wrap">
+			<div class="homefurnishing">
+				<div class="kalkulator-title-block">
+					<h3>Каркас</h3>
+				
+					<label class="homefurnishing-checkbox">
+						<input  class="checkbox" type="radio" name="image" id="checkbox8">
+						<span class="checkbox-custom checkbox-costume-block" for="checkbox8"></span>
+						<span class="checkboxlabel-block"></span>
+					</label>
+				</div>
+				<table border="0" cellpadding="0" cellspacing="10"  width="230" height="160">
+					<tr>
+						<th>Площадь:</th>
+						<td>126м<sup>2</sup></td>
+					</tr>
+					<tr>
+						<th>Размеры:</th>
+						<td>7м x 9м</td>
+					</tr>
+					<tr>
+						<th>Стоимость: </th>
+						<td>1386000</td>
+					</tr>
+					<tr>
+						<th>Цена за м2:</th>
+						<td>11000</td>
+					</tr>
+				</table>	
+				<div class="homefurnishing-btn">
+					<a href="#">Посмотреть описание</a>
+				</div>
+			</div>
+			<div class="homefurnishing">
+				<div class="kalkulator-title-block">
+					<h3>Брус</h3>
+				
+					<label class="homefurnishing-checkbox">
+						<input  class="checkbox" type="radio" name="image" id="checkbox9">
+						<span class="checkbox-custom checkbox-costume-block" for="checkbox9"></span>
+						<span class="checkboxlabel-block"></span>
+					</label>
+				</div>
+				<table border="0" cellpadding="0" cellspacing="10"  width="230" height="160">
+					<tr>
+						<th>Площадь:</th>
+						<td>126м<sup>2</sup></td>
+					</tr>
+					<tr>
+						<th>Размеры:</th>
+						<td>7м x 9м</td>
+					</tr>
+					<tr>
+						<th>Стоимость: </th>
+						<td>1386000</td>
+					</tr>
+					<tr>
+						<th>Цена за м2:</th>
+						<td>11000</td>
+					</tr>
+				</table>	
+				<div class="homefurnishing-btn">
+					<a href="#">Посмотреть описание</a>
+				</div>
+			</div>
+			<div class="homefurnishing">
+				<div class="kalkulator-title-block">
+					<h3>Сибит</h3>
+				
+					<label class="homefurnishing-checkbox">
+						<input  class="checkbox" type="radio" name="image" id="checkbox10">
+						<span class="checkbox-custom checkbox-costume-block" for="checkbox10"></span>
+						<span class="checkboxlabel-block"></span>
+					</label>
+				</div>
+				<table border="0" cellpadding="0" cellspacing="10"  width="230" height="160">
+					<tr>
+						<th>Площадь:</th>
+						<td>126м<sup>2</sup></td>
+					</tr>
+					<tr>
+						<th>Размеры:</th>
+						<td>7м x 9м</td>
+					</tr>
+					<tr>
+						<th>Стоимость: </th>
+						<td>1386000</td>
+					</tr>
+					<tr>
+						<th>Цена за м2:</th>
+						<td>11000</td>
+					</tr>
+				</table>	
+				<div class="homefurnishing-btn">
+					<a href="#">Посмотреть описание</a>
+				</div>
+			</div>
+		</div>
+		<div class="wrap-Additional-services">
+			<div class="Additional-services">
+				<div class="kalkulator-title">
+					<h2>Дополнительные услуги</h2>
+				</div>
+				<label class="homefurnishing-checkbox">
+					<input  class="checkbox" type="radio" name="image" id="checkbox11">
+					<span class="checkbox-custom checkbox-costume-inline" for="checkbox11"></span>
+					<span class="checkboxlabel-inline">Индивидуальный расчет</span>					
+				</label>
+				<div class="services">
+					<div class="service-title">Фундаменты</div>
+				</div>
+			</div>
+		</div>
 	</main>
 </body>
 </html>
